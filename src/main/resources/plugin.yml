@@ -1,0 +1,16 @@
+name: CentipedeGame
+version: 1.0.0
+main: org.centipedegame.centipedgame.CentipedeGame
+api-version: 1.17
+authors: Felicuss
+description: Плагин для пента спорта
+commands:
+  centipede:
+    description: Основная команда
+    usage: /centipede <подкоманда>
+    permission: centipede.admin
+    permission-message: §cУ вас нет прав на использование этой команды!
+permissions:
+  centipede.admin:
+    description: Право на управление плагином
+    default: op
